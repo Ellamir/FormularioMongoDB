@@ -11,8 +11,8 @@ window.onload = function(){
           password : $('#pass').val()
         }
     });
-    request.done(function(patito) {
-      console.log(patito);
+    request.done(function(data) {
+      console.log(data);
     });
     request.fail(function(req, err) {
       console.log(req);
